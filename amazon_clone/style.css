@@ -4,6 +4,127 @@
     border: border-box;
 }
 
+@media screen and (max-width: 412px) {
+
+    /* For mobile phones: */
+    .shop-section .box {
+        width: 100%;
+    }
+
+    .logo {
+        width: 82px !important;
+        height: 46px !important;
+    }
+
+    .address-first {
+        font-size: 0.6em !important;
+        margin-left: 0px !important;
+    }
+
+    .address-second {
+        font-size: 0.7rem !important;
+        margin-left: 0px !important;
+    }
+
+    .nav-search {
+        height: 30px !important;
+    }
+
+    .search-select {
+        font-size: 0.7em !important;
+    }
+
+    .search-input {
+        font-size: 0.5rem !important;
+    }
+
+    .search-icon {
+        font-size: 0.8rem !important;
+    }
+
+    span,
+    .nav-second {
+        font-size: 0.6rem !important;
+    }
+
+    .nav-cart {
+        font-size: 0.7rem !important;
+    }
+
+    .nav-cart i {
+        font-size: 1rem !important;
+    }
+
+    .panel-all {
+        font-size: 0.7em !important;
+        display: flex;
+    }
+
+    .panel-options {
+        font-size: 0.6rem !important;
+        display: flex;
+    }
+
+    .panel-deals {
+        font-size: 0.6rem !important;
+        padding-left: 1rem !important;
+    }
+
+    .hero-section {
+        height: 156px !important;
+    }
+
+    .hero-message {
+        font-size: 0.7rem !important;
+        width: 95% !important;
+    }
+
+    .box {
+        height: 250px !important;
+        padding: 15px 0px 10px !important;
+    }
+
+    .box-img {
+        height: 180px !important;
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    .box-content h2 {
+        font-size: 1rem !important;
+    }
+
+    .box-content p {
+        font-size: 0.7rem !important;
+    }
+
+    .foot-panel2 ul a {
+        font-size: 0.6rem !important;
+        margin-top: 2px !important;
+    }
+
+    .foot-panel4 {
+        font-size: 0.6rem !important;
+        padding: 0px !important;
+    }
+}
+
+@media screen and (min-width: 413px) and (max-width: 810px) {
+
+    /* For mobile phones: */
+    .shop-section .box {
+        width: 47%;
+    }
+
+    .hero-section {
+        height: 250px !important;
+    }
+
+    .hero-message {
+        font-size: 0.75rem;
+    }
+}
+
+
 .navbar {
     height: 60px;
     background-color: #0f1111;
@@ -146,7 +267,7 @@ span {
 .hero-message {
     background-color: white;
     color: black;
-    height: 40px;
+    /* height: 40px; */
     display: flex;
     align-items: center;
     justify-content: center;
